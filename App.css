@@ -1,0 +1,39 @@
+body{
+  justify-content: center;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.color-box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.color-code {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.copy-message {
+  font-style: italic;
+  font-size: 1.2em;
+  color: black;
+}
